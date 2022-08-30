@@ -12,6 +12,7 @@ function App() {
     messagingSenderId: "132259430682",
     appId: "1:132259430682:web:3911c6a5e6c26f0869aca3"
   };
+  
   if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
   }else {
